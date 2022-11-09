@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,700;1,400&family=Alex+Brush&family=Josefin+Sans:ital,wght@0,100;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <title>Donut Maker</title>
+</head>
+<header>
+    <nav>
+        <button type="button" class="collapsibleNavBar">About</button>
+            <div class="content">
+                <p>Fred the Baker Baking Company has been making hot, fresh donuts for the last 60 years. Fred has a secret donut recipe that he created with a French chef and began selling his Baking Company Donuts from the front of the shop. Fred has decided he is ready to retire and wants his love of donuts to stay alive as users experience the Donut Maker.</p>
+            </div>
+         <button type="button" class="collapsibleNavBar">Contact</button>
+            <div class="content">
+                <p>Ashley Parker | Software Developer
+                    <ul>
+                        <li><a href="https://github.com/ashley-anne" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/ashley-parker0724/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+    </nav>
+    <h1>Fred The Baker Baking Company.</h1>
+    <h3> Time to make the Donuts!</h3>
+</header>
+<body>
+    <h4><span id="donut-count">0</span> Donuts</h4>
+   <center><img id="homer" src="./src/images/homer.gif" width="361" height="242" frameBorder="0" allowFullScreen></img></center>
+    
+    <div class="upgrades">
+        <div class="auto-clicker-upgrade">
+            <h3 class="price">Auto Clicker Price</h3>
+            <h2><span id="auto-clicker-price">100</span> Donuts</h2>
+                <button id="purchase-auto-clicker">Purchase Clicker</button>
+            <h3 class="price">Total Purchased:</h3>
+            <h2><span id="auto-clickers-total">0</span></h2>
+        </div>
+        <div class="click-multiplier-upgrade">
+            <h3 class="price">Click Multiplier Price</h3>
+            <h2><span id="click-multiplier-price">10</span> Donuts</h2>
+                <button id="purchase-click-multiplier">Purchase Multiplier</button>
+            <h3 class="price">Total Purchased:</h3>
+            <h2><span id="click-multiplier">0</span></h2>
+        </div>
+    </div>
+    <button id="reset-game-button">Reset</button>
+    <script src="/src/js/app.js"></script>
+    </body>
+</html>
