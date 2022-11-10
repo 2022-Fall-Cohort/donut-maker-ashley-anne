@@ -1,27 +1,27 @@
 *{
-    font-family: 'Alegreya Sans SC';
+  font-family: 'Alegreya Sans SC';
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 h1{
-    color: #fff;
-    text-shadow: 3px 2px 5px rgb(105, 236, 87);
-    font-size: xx-large;
-    font-weight:200;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 2px;
+  color: #fff;
+  text-shadow: 3px 2px 5px rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight:200;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 2px;
 }
 
 h3{
-    color: white;
-    text-shadow: none;
-    text-align: center;
-    margin-top: 1px;
-    font-weight: 200;
+  color: white;
+  text-shadow: none;
+  text-align: center;
+  margin-top: 1px;
+  font-weight: 200;
 }
 
 nav{
@@ -33,201 +33,202 @@ position: relative;
 }
 
 .collapsibleNavBar {
-    background-color: #000;
-    color: deeppink;
-    cursor: pointer;
-    padding: 10px;
-    width: 20%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 13px;
-    position: relative;
-  }
-  
-  .active, .collapsibleNavBar:hover {
-    background-color: deeppink;
-    color: white;
-  }
-  
-  .content {
-    padding: 0 15px 0px 15px;
-    display: none;
-    overflow: hidden;
-    background-color: white;
-    position: absolute;
-    top: 100%;
-    width: 97.8%;
-    font-family: 'Times New Roman';
-  } 
-  
-  h4 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 30pt;
-    margin-bottom: 5px;
-    margin-top: -15px;
-  }
-
-    .donutButton{
-    display: flex;
-    width: 20%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top:-10px;
-  }
-
-  .donutButton:hover{
-      transform: scale(1.1);
-      cursor: pointer;
-  }
-
-  .donutButton:active{
-      transform: scale(1.05);
-  }
-  
-  #reset-game-button {
-    display: flex;
-    width: 5%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 10px;
-    padding: 12px;
-    min-width: 30px;
-    height: 40px;
-    background-color: black;
-    border: deeppink;
-    border-style: solid;
-    color: deeppink;
-    font-weight: none;
-    font-size: medium;
-    
-  }
-
-  #reset-game-button:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    border: #fff;
-    border-style: solid;
-    color: white;
-  }
-
-  #reset-game-button:active{
-    transform: scale(1.05);
-    border: none;
-    outline: deeppink;
-  }
-  #reset-game-button:focus{
-    transform: scale(1.05);
-    border: none;
-    outline: none;
-  }
-
-  .upgrades{
-      display:flex;
-      flex-direction: row;
-      justify-content: center;
-      font-weight: none;
-  }
-
-  h2{
-    color: rgb(252, 252, 252);
-    font-weight: 200;
-    text-align: center;
-    font-size: 16pt;
-    margin-bottom: 15px;
-    margin-top: 11px;
-  }
-
-  .price{
-    color: white;
-    text-shadow: 2px 2px 5px rgba(238, 37, 127, 0.945);
-    text-align: center;
-    font-size: 15pt;
-    margin-top: 25px;
-    margin-bottom: -5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 20%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+  position: relative;
 }
 
-  #purchase-auto-clicker{
-    background-color: black;
-    border: deeppink;
-    border-style: solid;
-    color: deeppink;
-    font-weight: none;
-    font-size: medium; 
-    padding: 12px;
-  }
+.active, .collapsibleNavBar:hover {
+  background-color: deeppink;
+  color: white;
+}
 
-  #purchase-auto-clicker:hover{
+.content {
+  padding: 0 15px 0px 15px;
+  display: none;
+  overflow: hidden;
+  background-color: deeppink;
+  position: absolute;
+  top: 100%;
+  width: 97.8%;
+  font-family: 'Arial Narrow';
+  color: white;
+} 
+
+h4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30pt;
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+
+  .donutButton{
+  display: flex;
+  width: 20%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top:-10px;
+}
+
+.donutButton:hover{
     transform: scale(1.1);
     cursor: pointer;
-    border: white;
-    border-style: solid;
-    color: white;
-  }
+}
 
-  #purchase-auto-clicker:active{
+.donutButton:active{
     transform: scale(1.05);
-    border: deeppink;
-    border-style: solid;
-    outline: none;
-  }
-  #purchase-auto-clicker:focus{
-    transform: scale(1.05);
-    border: none;
-    outline: none;
-  }
+}
 
-  #purchase-click-multiplier{
-    background-color: black;
-    border: deeppink;
-    color: deeppink;
-    border-style: solid;
-    font-weight: none;
-    font-size: medium; 
-    padding: 12px;
-    margin-left: 10px;
-  }
+#reset-game-button {
+  display: flex;
+  width: 5%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  padding: 12px;
+  min-width: 30px;
+  height: 40px;
+  background-color: black;
+  border: deeppink;
+  border-style: solid;
+  color: deeppink;
+  font-weight: none;
+  font-size: medium;
   
-  #purchase-click-multiplier:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    cursor: pointer;
-    border: white;
-    border-style: solid;
-    color: white;
-  }
+}
 
-  #purchase-click-multiplier:active{
-    transform: scale(1.05);
-    border: none;
-    outline: none;
-  }
-  #purchase-click-multiplier:focus{
-    transform: scale(1.05);
-    border: none;
-    outline: none;
-  }
+#reset-game-button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: #fff;
+  border-style: solid;
+  color: white;
+}
 
-  @media only screen and (max-width: 600px) {
-      body{
-          max-width: 600px;
-          height: auto;
-          transform: scale(.8);
-          font-size: scale(.5);
-      }
-      .content{
-        width: 93%;
-      }
-      #reset-game-button{
-          width: 20%;
-          cursor: pointer;
-          border: white;
-          border-style: solid;
-          color: white;
-      }
-  }
+#reset-game-button:active{
+  transform: scale(1.05);
+  border: none;
+  outline: deeppink;
+}
+#reset-game-button:focus{
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
+
+.upgrades{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: none;
+}
+
+h2{
+  color: rgb(252, 252, 252);
+  font-weight: 200;
+  text-align: center;
+  font-size: 16pt;
+  margin-bottom: 15px;
+  margin-top: 11px;
+}
+
+.price{
+  color: white;
+  text-shadow: 2px 2px 5px rgba(238, 37, 127, 0.945);
+  text-align: center;
+  font-size: 15pt;
+  margin-top: 25px;
+  margin-bottom: -5px;
+}
+
+#purchase-auto-clicker{
+  background-color: black;
+  border: deeppink;
+  border-style: solid;
+  color: deeppink;
+  font-weight: none;
+  font-size: medium; 
+  padding: 12px;
+}
+
+#purchase-auto-clicker:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  border: white;
+  border-style: solid;
+  color: white;
+}
+
+#purchase-auto-clicker:active{
+  transform: scale(1.05);
+  border: deeppink;
+  border-style: solid;
+  outline: none;
+}
+#purchase-auto-clicker:focus{
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
+
+#purchase-click-multiplier{
+  background-color: black;
+  border: deeppink;
+  color: deeppink;
+  border-style: solid;
+  font-weight: none;
+  font-size: medium; 
+  padding: 12px;
+  margin-left: 10px;
+}
+
+#purchase-click-multiplier:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  cursor: pointer;
+  border: white;
+  border-style: solid;
+  color: white;
+}
+
+#purchase-click-multiplier:active{
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
+#purchase-click-multiplier:focus{
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        max-width: 600px;
+        height: auto;
+        transform: scale(.8);
+        font-size: scale(.5);
+    }
+    .content{
+      width: 93%;
+    }
+    #reset-game-button{
+        width: 20%;
+        cursor: pointer;
+        border: white;
+        border-style: solid;
+        color: white;
+    }
+}
